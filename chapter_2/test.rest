@@ -1,0 +1,24 @@
+### TEST GET / WEBSITE
+GET http://localhost:8080
+
+
+### TEST GET / dashboard website
+
+GET http://localhost:8080/dashboard
+
+
+### Data endpoint
+GET http://localhost:8080/api/data
+
+
+### Data endpoint for adding a user
+POST http://localhost:8080/api/data
+Content-Type: application/json
+
+{
+"name":"TArjan"
+}
+
+
+### Delete endpoint
+DELETE  http://localhost:8080/api/data
